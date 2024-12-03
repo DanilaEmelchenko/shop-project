@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist",
+    "paths": {
+            "@Shared/*": [
+                "Shared/*"
+            ]
+        }
+  },
+  "exclude": ["node_modules"]
+}
