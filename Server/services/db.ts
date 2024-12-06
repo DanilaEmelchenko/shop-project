@@ -19,9 +19,7 @@ export async function initDataBase(): Promise<Connection | null> {
   }
 
   console.log(`Connection to DB ${DB_NAME} established`);
-  console.log(
-    `DB_HOST: ${DB_HOST}, DB_PORT: ${DB_PORT}, DB_USER: ${DB_USER}, DB_NAME: ${DB_NAME}`
-  )
+  console.log(`Server running on port ${DB_HOST}`);
   
 
   return connection;

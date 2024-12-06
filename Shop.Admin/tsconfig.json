@@ -10,7 +10,7 @@
     "outDir": "./dist",
     "paths": {
             "@Shared/*": [
-                "Shared/*"
+                "../Shared/*"
             ]
         }
   },
